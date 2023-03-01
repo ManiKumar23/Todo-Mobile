@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.upper-container{
+    width: 50%;
+    height: 40%;
+    margin: 40px auto;
+    position:relative;
+    margin-left: 35%;
+    padding-left: 30px;
+    
+}
+.upper-container1{
+    width: 45%;
+    height: 90%;
+    padding-top: 0px;
+    
+}
+#arrow{
+    padding-top: 0px;
+    padding-left: 470px;
+    position: absolute;
+    
+}
+
+#Back{
+    
+    padding-left: 505px;
+    font-size:1.5em;
+    color: #424242;
+
+}
+#circle{
+    
+    position: relative;
+    padding-left: 620px;
+}
+#tasks{
+    padding-left: 10px;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+#list{
+    
+    font-size:1.5rem;
+    font-weight: bold;
+    color: aqua;
+}
+.upper-container2{
+    width: 40%;
+    height: 100%;
+    padding-top: 10px;
+    position:relative;
+    top: 10px;
+    right: 10px;
+    margin: 10px auto;
+}
+
+
+
+
+.card1{
+    padding-top: 50px;
+    margin-top: 10px;
+    height: 45vh;
+    width: 25%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+}
+
+.div1{
+    position:absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: aqua;
+    padding-left: 15%;
+    
+    
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    opacity: 0.5;
+    text-align:right;
+    position: absolute;
+    top: 30%;
+    font-weight: bold;
+    padding-left: 30px;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align:left;
+    font-size:20px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+#check{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+@media(max-width:600px){
+    .upper-container{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .upper-container1{
+        width: 80%;
+    }
+    #Back{
+        padding-left: 60px;
+    }
+    #tasks{
+        padding:0px;
+        
+    }
+    #list{
+        padding-left: 0px;
+    }
+    #arrow{
+        padding-left: 30px;
+    }
+   
+    #circle{
+        padding-left: 140px;
+    }
+    .div2{
+        display: none;
+    }
+    .div3{
+        display: none;
+    }
+    .div1{
+        border: none;
+        color: gray;
+    }
+    .card1{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    
+    
+}

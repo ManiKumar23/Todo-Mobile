@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
+}
+
+.upper-container{
+    width: 50%;
+    height: 90%;
+    margin: 50px auto;
+    position:relative;
+
+}
+.upper-container1{
+    
+    width: 60%;
+    height: 90%;
+    
+    padding-bottom: 60px;
+
+}
+#tasks{
+    padding-left: 0px;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+#list{
+    
+    font-size:1.5rem;
+    font-weight: bold;
+    color: aqua;
+}
+
+
+
+.upper-container2{
+    width: 80%;
+    height: 90%;
+    padding-top: 50px;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    
+    
+    
+}
+
+#circle{
+
+    padding-left: 0px;
+    
+}
+
+
+
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 38%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    
+
+     
+}
+
+.div1{
+    position:absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 15px;
+    width: 90%;
+    text-align: left;
+    height: 15%;
+    color: aqua;
+    font-weight: bold;
+    
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 15px;
+    opacity: 0.5;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align:left;
+    font-size:15px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.card2{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 38%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    
+
+     
+}
+.card3{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 38%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    
+    
+
+     
+}
+
+.lower{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items:start;
+    flex-direction: column;
+    
+}
+
+.notshow{
+    filter: blur(0.9px);
+    -webkit-filter: blur(0.9px);
+}
+.pop-up{
+    position: absolute;
+    left:23%;
+    top: 30%;
+    height: 30vh;
+    width: 23%;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+
+
+}
+
+.addnew{
+    opacity: 0.7;
+    font-size: 17px;
+    
+
+}
+
+.pop-upbar{
+    background:  #F7F7F7;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 85%;
+    height: 25%;
+    font-size: 15px;
+    color: #858585;
+    opacity: 1;
+    
+}
+.pop-up-button{
+    width: 35%;
+    height: 16%;
+    margin-top: 85px;
+    color: white;
+    background-color:#00A5EC;
+    border-radius: 2px;
+    border:none;
+    position: absolute;
+    left: 170px;
+    
+}
+
+
+@media(max-width:600px){
+    .upper-container{
+        width: 80%;
+    }
+    .upper-container1{
+        width: 80%;
+    }
+    #addlist{
+        display: none;
+
+    }
+    #circle{
+        padding-left: 50px;
+    }
+    .div2{
+        display: none;
+    }
+    .div3{
+        display: none;
+    }
+    .div1{
+        border: none;
+        color: gray;
+    }
+    .card1{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    .card2{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    .card3{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    .card4{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    .card5{
+        width: 90%;
+        height: 23vw;
+        margin-top:30px ;
+    }
+    .pop-up{
+        height: 48vw;
+        width: 70%;
+        left: 40px;
+    }
+    .pop-up-button{
+        left: 90px;
+
+    }
+    
+}
